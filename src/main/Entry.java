@@ -16,7 +16,6 @@ import java.util.Map;
  */
 public class Entry {
     public static void main(String[] args) {
-        System.out.println(args[0]);
         Locale.setDefault(new Locale("en", "US", "UNI"));
         Map<String, String> argMap = parseParams(args);
         int instances = getIntParam(argMap, "instance", 30);
